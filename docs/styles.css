@@ -1,14 +1,12 @@
 a:link, a:visited, a:active {
 	color: #FFFFFF;
 	text-decoration: none;
-	font-weight: bold;
 	cursor: pointer;
 }
 
 a:hover {
 	color: #FFFFFF;
 	text-decoration: underline;
-	font-weight: bold;
 }
 
 body {
@@ -20,20 +18,24 @@ body {
     background-repeat: no-repeat;
 	background-attachment: fixed;
 	font-family: Lato;
+	font-weight: bold;
 	color: white;
 }
 
 #brandName>h1 {
-	font-weight: bold;
 	text-align: center;
 	font-size: 30px;
 	margin: 30px;
 }
 
+h1 {
+	font-size: 20px;
+}
+
 p {
 	font-family: Montserrat;
 	line-height: 25px;
-	font-weight: bold;
+	font-size: 16px;
 }
 
 button {
@@ -56,6 +58,8 @@ button:hover {
 
 li {
 	margin: 4px;
+	font-family: Montserrat;
+	font-size: 12px;
 }
 
 #header {
@@ -88,7 +92,6 @@ li {
 	background-color: rgba(200, 200, 200, 0.9);
 	color: black !important;
 	text-decoration: none;
-	font-weight: bold;
 	cursor: pointer;
 }
 
@@ -97,6 +100,10 @@ li {
 	text-decoration: none;
 	font-weight: bold;
 	cursor: pointer;
+}
+
+.fakeLink:hover {
+	text-decoration: underline;
 }
 
 #more {
