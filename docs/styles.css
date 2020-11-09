@@ -1,0 +1,204 @@
+a:link, a:visited, a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+body {
+	width: 100vw;
+	background-color: lightblue;
+    background-image: url("./images/dinnerTable.jpg");
+	background-position: 0 0;
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: Lato;
+	color: white;
+}
+
+#brandName>h1 {
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+	margin: 30px;
+}
+
+p {
+	font-family: Montserrat;
+	line-height: 25px;
+	font-weight: bold;
+}
+
+button {
+	width: 150px;
+	height: 35px;
+	font-family: Lato;
+	font-weight: bold;
+	font-size: 15px;
+	border: 1px solid gray;
+	border-radius: 4px;
+	background-color: rgba(20, 20, 20, 0.9);
+	color: white;
+	margin-top: 20px;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: rgba(150, 150, 150, 0.9);
+}
+
+li {
+	margin: 4px;
+}
+
+#header {
+	display: inline-flex;
+	align-items: center;
+	text-align: center;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 50px;
+	background-color: rgba(20, 20, 20, 0.9);
+	border-bottom: 1px solid gray;
+}
+
+#container {
+	max-width: 100vw;
+}
+
+#home {
+	margin-left: 20px;
+}
+
+#home, #menu, #contact, #about {
+	width: 100px;
+	height: 33px;
+	padding-top: 17px;
+}
+
+.active {
+	background-color: rgba(200, 200, 200, 0.9);
+	color: black !important;
+	text-decoration: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.fakeLink {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#more {
+	margin-left: auto;
+	margin-right: 20px;
+}
+
+#homeContainer {
+	display: grid;
+	grid-row-gap: 50px;
+	grid-template: repeat(5, 40vh) / repeat(2, 50vw);
+	margin-top: 100px;
+	margin-bottom: 30px;
+	max-width: 100vw;
+}
+
+#logoImage {
+	width: 100%;
+	padding-top: 5vw;
+}
+
+#descriptionText {
+	font-size: 12px;
+}
+
+#menuImage, #locationImage, #aboutImage, #contactImage {
+	max-width: 100%;
+	height: auto;
+	max-height: 100%;
+	border-radius: 6px;
+	border: 1px solid gray;
+	box-shadow: 2px 2px 6px gray;
+}
+
+#homeContainer>div {
+	background-color: rgba(0, 0, 0, .6);
+	padding: 20px;
+}
+
+#menuContainer {
+	margin-top: 50px;
+	width: 100vw;
+}
+
+#appTitle, #appContainer, #entreTitle, #entreContainer, #dessertTitle, #dessertContainer, #drinkTitle, #drinkContainer {
+	background-color: rgba(0, 0, 0, .6);
+}
+
+#appTitle, #entreTitle, #dessertTitle, #drinkTitle {
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+}
+
+#appContainer, #entreContainer, #dessertContainer, #drinkContainer {
+	display: inline-flex;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.appImg>img, .entreImg>img, .dessertImg>img, .drinkImg>img {
+	max-width: 20vw;
+	height: auto;
+	max-height: 20vw;
+	border-radius: 4px;
+	box-shadow: 2px 2px 6px gray;
+}
+
+#app1, #app2, #app3, #entre1, #entre2, #entre3, #dessert1, #dessert2, #dessert3, #drink1, #drink2, #drink3 {
+	margin: 10px;
+	border-radius: 4px;
+	background-color: rgba(20, 20, 20, 0.9);
+	padding: 5px;
+}
+
+#contactContainer {
+	margin-top: 50px;
+	height: 84.7vh;
+}
+
+#temp {
+	font-weight: bold;
+	font-size: 50px;
+}
+
+#footer {
+	display: inline-flex;
+	align-items: center;
+	text-align: center;
+	bottom: 0px;
+	width: 100%;
+	height: 30px;
+	background-color: rgba(20, 20, 20, 0.9);
+	border-top: 1px solid gray;
+}
+
+#linkedIn {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#copywrite {
+	margin-left: auto;
+	margin-right: 20px;
+}
