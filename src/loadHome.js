@@ -54,7 +54,7 @@ const loadPage = () => {
 	menu.setAttribute("class", "fakeLink");
 	makeDiv("#header", "contact", "Contact Us");
 	contact.setAttribute("class", "fakeLink");
-	makeDiv("#header", "more", '<a href="https://www.ethanzitting.com" target="_blank">More by Ethan</a>');
+	makeDiv("#header", "more", '<a href="http://ethanzitting.com" target="_blank">More by Ethan</a>');
 
 	// Make Home Page
 	makeDiv("body", "content");
